@@ -1,11 +1,12 @@
 exports.config =
   # See docs at http://brunch.readthedocs.org/en/latest/config.html.
-  coffeelint:
-    pattern: /^app\/.*\.coffee$/
-    options:
-      indentation:
-        value: 2
-        level: "error"
+  plugins:
+    coffeelint:
+      pattern: /^app\/.*\.coffee$/
+      options:
+        indentation:
+          value: 2
+          level: "error"
 
   files:
     javascripts:
@@ -21,7 +22,7 @@ exports.config =
           'vendor/scripts/console-helper.js'
           'vendor/scripts/jquery-1.9.0.min.js'
           'vendor/scripts/handlebars-1.0.0-rc.4.js'
-          'vendor/scripts/ember-latest.js'
+          'vendor/scripts/ember-1.0.0-rc.6.js'
           'vendor/scripts/ember-data-latest.js'
           'vendor/scripts/bootstrap.js'
         ]
@@ -49,8 +50,8 @@ exports.config =
         # If you don't specify jquery and ember there,
         # raw (non-Emberized) Handlebars templates will be compiled.
         jquery: 'vendor/scripts/jquery-1.9.0.min.js'
-        ember: 'vendor/scripts/ember-latest.js'
-        handlebars: 'vendor/scripts/handlebars-1.0.rc.3.js'
+        ember: 'vendor/scripts/ember-1.0.0-rc.6.js'
+        handlebars: 'vendor/scripts/handlebars-1.0.0-rc.4.js'
         emblem: 'vendor/scripts/emblem.js'
 
   conventions:
