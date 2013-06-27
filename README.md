@@ -6,7 +6,7 @@ Thanks to wordofchristian for creating this awesome brunch skeleton!
 
 ## Getting started
 
-    brunch new <appname> --skeleton https://github.com/wordofchristian/brunch-with-hampsters
+    brunch new <appname> --skeleton https://github.com/iUtvikler/brunch-with-hampsters.git
     brunch w -s
 
 For more info see the original [repo](https://github.com/wordofchristian/brunch-with-hampsters)
