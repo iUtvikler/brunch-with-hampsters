@@ -31,8 +31,14 @@ exports.config =
         'stylesheets/app.css': /^(app|vendor)/
         'test/stylesheets/test.css': /^test/
       order:
-        before: ['vendor/styles/normalize.css']
-        after: ['vendor/styles/helpers.css']
+        before: [
+          'vendor/styles/normalize.css'
+          'vendor/styles/bootstrap.css'
+        ]
+        after: [
+          'vendor/styles/bootstrap-responsive.css'
+          'vendor/styles/helpers.css'
+        ]
 
     templates:
       precompile: true
