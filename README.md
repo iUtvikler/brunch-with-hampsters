@@ -1,3 +1,9 @@
+This is my fork of [Brunch with Hampsters](https://github.com/wordofchristian/brunch-with-hampsters)
+
+I have updated ember and handlebars, added generators, added bootrap responsive and done some other modifications that suits my use.
+
+Thanks to wordofchristian for creating this awesome brunch skeleton!
+
 # Brunch with Hampsters
 
 ![](http://cl.ly/image/0z3D3Q0t2b1s/hampster.jpeg)
