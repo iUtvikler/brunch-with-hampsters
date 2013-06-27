@@ -20,7 +20,7 @@ exports.config =
         before: [
           'vendor/scripts/console-helper.js'
           'vendor/scripts/jquery-1.9.0.min.js'
-          'vendor/scripts/handlebars-1.0.rc.3.js'
+          'vendor/scripts/handlebars-1.0.0-rc.4.js'
           'vendor/scripts/ember-latest.js'
           'vendor/scripts/ember-data-latest.js'
           'vendor/scripts/bootstrap.js'
